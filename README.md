@@ -1,4 +1,6 @@
-# laravel-php-duration
+# laravel-duration
+# description
+Convert durations of time between colon-formatted, human-readable, and seconds use Laravel
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Travis](https://img.shields.io/travis/djoudi/laravel-duration.svg?style=flat-square)]()
