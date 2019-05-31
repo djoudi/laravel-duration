@@ -1,8 +1,8 @@
 # laravel-php-duration
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Travis](https://img.shields.io/travis/djoudi/laravel-php-duration.svg?style=flat-square)]()
-[![Total Downloads](https://img.shields.io/packagist/dt/djoudi/laravel-php-duration.svg?style=flat-square)](https://packagist.org/packages/djoudi/laravel-php-duration)
+[![Travis](https://img.shields.io/travis/djoudi/laravel-duration.svg?style=flat-square)]()
+[![Total Downloads](https://img.shields.io/packagist/dt/djoudi/laravel-duration.svg?style=flat-square)](https://packagist.org/packages/djoudi/laravel-duration)
 [![StyleCI](https://styleci.io/repos/189517498/shield?branch=master)](https://github.styleci.io/repos/189517498)
 ## Install
 `composer require djoudi/laravel-duration`
