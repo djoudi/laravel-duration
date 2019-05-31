@@ -1,5 +1,5 @@
 {
-    "name": "djoudi/laravel-php-duration",
+    "name": "djoudi/laravel-duration",
     "description": "A wrapper of kevinkhill/php-duration",
     "type": "library",
     "license": "MIT",
