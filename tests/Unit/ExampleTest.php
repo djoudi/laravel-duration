@@ -3,7 +3,6 @@
 namespace Djoudi\LaravelPhpDuration\Tests\Unit;
 
 use Djoudi\LaravelPhpDuration\Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ExampleTest extends TestCase
 {

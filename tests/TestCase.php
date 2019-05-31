@@ -2,8 +2,8 @@
 
 namespace Djoudi\LaravelPhpDuration\Tests;
 
-use Djoudi\LaravelPhpDuration\LaravelPhpDurationServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
+use Djoudi\LaravelPhpDuration\LaravelPhpDurationServiceProvider;
 
 class TestCase extends BaseTestCase
 {
