@@ -1,6 +1,6 @@
 {
     "name": "djoudi/laravel-php-duration",
-    "description": "Your Package Description here",
+    "description": "A wrapper of kevinkhill/php-duration",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -43,10 +43,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Djoudi\\LaravelPhpDuration\\LaravelPhpDurationServiceProvider"
+                "Djoudi\\LaravelPhpDuration\\DurationServiceProvider"
             ],
             "aliases": {
-                "Djoudi": "Djoudi\\LaravelPhpDuration\\LaravelPhpDurationFacade"
+                "Duration": "Djoudi\\LaravelPhpDuration\\DurationFacade"
             }
         }
     }

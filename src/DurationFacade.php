@@ -4,7 +4,7 @@ namespace Djoudi\LaravelPhpDuration;
 
 use Illuminate\Support\Facades\Facade;
 
-class LaravelPhpDurationFacade extends Facade
+class DurationFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -13,6 +13,6 @@ class LaravelPhpDurationFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-php-duration';
+        return 'duration';
     }
 }

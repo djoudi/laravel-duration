@@ -3,8 +3,10 @@
 namespace Djoudi\LaravelPhpDuration;
 
 use Illuminate\Support\ServiceProvider;
+use Khill\Duration\Duration;
 
-class LaravelPhpDurationServiceProvider extends ServiceProvider
+
+class DurationServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.
@@ -29,7 +31,7 @@ class LaravelPhpDurationServiceProvider extends ServiceProvider
     {
         // Register facade
         $this->app->singleton('laravel-php-duration', function () {
-            return new LaravelPhpDuration;
+            return new Duration;
         });
     }
 
