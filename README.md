@@ -5,7 +5,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/djoudi/laravel-php-duration.svg?style=flat-square)](https://packagist.org/packages/djoudi/laravel-php-duration)
 
 ## Install
-`composer require djoudi/laravel-php-duration`
+`composer require djoudi/laravel-duration`
 
 ## Usage
 Write a few lines about the usage of this package.
