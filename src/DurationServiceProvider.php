@@ -2,9 +2,8 @@
 
 namespace Djoudi\LaravelPhpDuration;
 
-use Illuminate\Support\ServiceProvider;
 use Khill\Duration\Duration;
-
+use Illuminate\Support\ServiceProvider;
 
 class DurationServiceProvider extends ServiceProvider
 {
@@ -15,7 +14,7 @@ class DurationServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../config/LaravelPhpDuration.php', 'laravel-php-duration');
+        $this->mergeConfigFrom(__DIR__.'/../config/LaravelPhpDuration.php', 'laravel-php-duration');
         $this->publishThings();
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'LaravelPhpDuration');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
@@ -35,10 +34,11 @@ class DurationServiceProvider extends ServiceProvider
         });
     }
 
-    public function publishThings(){
+    public function publishThings()
+    {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../config/LaravelPhpDuration.php' => config_path('LaravelPhpDuration.php'),
+                __DIR__.'/../config/LaravelPhpDuration.php' => config_path('LaravelPhpDuration.php'),
             ], 'config');
         }
     }
